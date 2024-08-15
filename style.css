@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+.center{
+    display: block;
+    margin: 0 auto;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+button{
+    margin-left: 46%;
+    width: 100px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 40px;
+    border: 0px ;
+    background: #5c4d4d;
+    color: aliceblue;
+ cursor: pointer;
+}
