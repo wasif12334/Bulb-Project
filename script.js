@@ -3,13 +3,13 @@ let bulb = document.getElementsByClassName("center")[0];
 
 
 function on(e){
-  if(bulb.textContent.includes("Turn On")){
+  if(btn.textContent.includes("Turn On")){
     bulb.src= "./BulbOn.png";
-    bulb.textContent =" Turn off";
+    btn.textContent =" Turn Off";
   }
 else{
     bulb.src= "./BulbOff.png";
-    bulb.textContent = "Turn On";
+    btn.textContent = "Turn On";
 }
 
 }
